@@ -26,13 +26,13 @@ The Histogram of gray scale image and color image is shown.
 
 ## Program:
 ```python
-# Developed By: VIGNESH M
-# Register Number: 212223240176
+# Developed By: SANJEEV RAJ.S
+# Register Number: 212223220096
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
-image = cv2.imread('VICKY.jpg')
+image = cv2.imread('my image.jpg')
 
 gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
@@ -73,15 +73,18 @@ plt.show()
 ```
 ## Output:
 ### Input Grayscale Image and Color Image
-![vicky](https://github.com/user-attachments/assets/d4d0b816-b466-4b08-9aee-b027fe168e25)
+![my image](https://github.com/user-attachments/assets/a60f0509-8c27-4d0f-b939-0e2adfa5b1dc)
+
 
 
 ### Histogram of Grayscale Image and any channel of Color Image
-<img width="428" height="583" alt="image" src="https://github.com/user-attachments/assets/eebcddb8-ddf0-4890-9060-48551192bfbe" />
+<img width="419" height="584" alt="Screenshot 2025-08-31 212637" src="https://github.com/user-attachments/assets/8478b530-e61b-4fa9-b035-d3e81f67b7eb" />
+
 
 
 ### Histogram Equalization of Grayscale Image.
-<img width="420" height="584" alt="image" src="https://github.com/user-attachments/assets/963f1cba-6c2d-4faa-85d6-8ffcce22845e" />
+<img width="435" height="583" alt="Screenshot 2025-08-31 212658" src="https://github.com/user-attachments/assets/25547718-d44f-4563-a675-a5f6712c7f6c" />
+
 
 
 ## Result: 
